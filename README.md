@@ -38,7 +38,7 @@ endpoint: https://fakeapi.platzi.com/en/rest/users/
   - JSON utility uses the Jackson library to read JSON data from a file and return it as a Map.
   - Random Data utiliy uses the Data Faker library to generate fake data (random)
   - Rest utils to perform CRUD operation and perform request and response report. 
-  - Any string manipulation code 
+  - Any string manipulation code and logging
 #### Reporting
 This framework supports integration with reporting tools like ExtentReports to generate test reports.
 
