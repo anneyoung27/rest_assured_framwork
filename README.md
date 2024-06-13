@@ -13,12 +13,12 @@ This framework aims to simplify the development, maintenance, and execution of A
 - Maven for dependency management
 - Rest Assured library
 ## Installation: 
-1. Clone this repository
+1. **Clone this repository**
 ```
 git clone https://github.com/anneyoung27/rest_assured_framework.git
 cd rest_assured_framework
 ```
-2. Install dependency
+2. **Install dependencies**
 ```
 mvn clean install
 ```
