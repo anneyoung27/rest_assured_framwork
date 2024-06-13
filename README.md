@@ -40,7 +40,7 @@ endpoint: https://fakeapi.platzi.com/en/rest/users/
   - Rest utils to perform CRUD operation and perform request and response report. 
   - Any string manipulation code and logging
 #### Reporting
-This framework supports integration with reporting tools like ExtentReports to generate test reports.
+This framework supports integration with reporting tools like `ExtentReports` to generate test reports.
 
 ## How to run?
 - Add/Edit configuration templates
