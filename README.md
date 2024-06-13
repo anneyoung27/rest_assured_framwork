@@ -12,3 +12,13 @@ This framework aims to simplify the development, maintenance, and execution of A
 - Java 8 or later (but in this project I am using Java 21)
 - Maven for dependency management
 - Rest Assured library
+## Installation: 
+- Clone this repository
+```
+git clone https://github.com/anneyoung27/rest_assured_framework.git
+cd rest_assured_framework
+```
+- Install dependency
+```
+mvn clean install
+```
