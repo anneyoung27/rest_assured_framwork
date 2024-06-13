@@ -1,1 +1,1 @@
-# My Basic framework for API Automation with RESTAssured 
+# Basic framework for API Automation with RESTAssured 
