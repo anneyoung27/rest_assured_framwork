@@ -10,5 +10,5 @@ This framework aims to simplify the development, maintenance, and execution of A
 - **_Extensibility_**: Easily extendable and customizable to meet specific project needs.
 ## Requirements:
 - Java 8 or later (but in this project I am using Java 21)
-- Maven or Gradle for dependency management
+- Maven for dependency management
 - Rest Assured library
