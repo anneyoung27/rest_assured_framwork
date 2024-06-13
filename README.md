@@ -44,5 +44,5 @@ This framework supports integration with reporting tools like ExtentReports to g
 
 ## How to run?
 - Add/Edit configuration templates
-- Choose Maven, then name it to `MavenRunner` then in run name it `test -Denv=qa_data_test`
+- Choose Maven, then name it to `MavenRunner` then in Run, name it `test -Denv=qa_data_test`
 - Make sure your testng.xml location is in path from repository root. 
