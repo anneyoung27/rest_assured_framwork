@@ -18,11 +18,12 @@ Use the following:
 - ExtentReports
 - Hamcrest
 - Data Faker
+- XML
 ## Project Details
 Restful API Automation with Java and Rest Assured
 ### Project URL
 ```
-URL: https://fakeapi.platzi.com/en/rest/users/
+endpoint: https://fakeapi.platzi.com/en/rest/users/
 ```
 - CRUD operation
   - GET Users
