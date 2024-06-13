@@ -8,19 +8,32 @@ This framework aims to simplify the development, maintenance, and execution of A
 - **_Modular Project Structure_**: Separates test code, test data, and configuration for easier maintenance.
 - **_Robust Reporting_**: Integration with reporting tools to generate test reports.
 - **_Extensibility_**: Easily extendable and customizable to meet specific project needs.
-## Requirements:
-- Java 8 or later (but in this project I am using Java 21)
-- Maven for dependency management
-- Rest Assured library
-## Installation: 
-1. **Clone this repository**
+## Tech stacks used:
+Use the following:
+- Java > 21
+- RestAssured
+- Maven
+- TestNG
+- Payload management: POJO (Lombok), Gson, Jackson API
+- ExtentReports
+- Hamcrest
+- Data Faker
+## Project Details
+Restful API Automation with Java and Rest Assured
+### Project URL
 ```
-git clone https://github.com/anneyoung27/rest_assured_framework.git
-cd rest_assured_framework
+URL: https://fakeapi.platzi.com/en/rest/users/
 ```
-2. **Install dependencies**
-```
-mvn clean install
-```
-## Reporting
-This framework supports integration with reporting tools like ExtentReports to generate test reports. Make sure to configure the desired reporting tool in your project.
+- CRUD operation
+  - GET Users
+  - CREATE Users
+  - UPDATE Users
+  - DELETE - Delete Users
+- Utils
+  - Assertions utility to validate actual output and expected output
+  - JSON utility uses the Jackson library to read JSON data from a file and return it as a Map.
+  - Random Data utiliy uses the Data Faker library to generate fake data (random)
+  - Rest utils to perform CRUD operation and perform request and response report. 
+  - Any string manipulation code 
+- Reporting
+This framework supports integration with reporting tools like ExtentReports to generate test reports.
