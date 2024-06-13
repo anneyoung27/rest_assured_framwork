@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="reporting.Setup"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="E:/Work/QA Files/Learn Java Core/RestAssured Framework/api_automation_framework/src/test/java/users/UserTest.java">
+        <classes>
+            <class name="users.UserTest">
+                <methods>
+                    <include name="getListOfUsersTest"/>
+                    <include name="getUserByIdTest"/>
+                    <include name="getInvalidEndPointTest"/>
+                    <include name="getUserByInvalidIdTest"/>
+                    <include name="getUserBy0IdTest"/>
+                    <include name="creteNewUserTest"/>
+                    <include name="creteNewUserWithRandomDataTest"/>
+                    <include name="creteNewUserWithInvalidEmailFormatTest"/>
+                    <include name="creteNewUserWithEmptyJSONObjectTest"/>
+                    <include name="updateUserInformationTest"/>
+                    <include name="updateUserInformationWithNonExistentIdTest"/>
+                    <include name="updateUserInformationWithEmptyFieldTest"/>
+                    <include name="deleteExistingUserTest"/>
+                    <include name="deleteUserWithNegativeIdTest"/>
+                    <include name="unauthorizedDeletionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,4 @@
+{
+  "operateUserEndPoint": "https://api.escuelajs.co/api/v1/users",
+  "invalidUserEndPoint": "https://api.escuelajs.co/api/v1/user"
+}
