@@ -29,10 +29,10 @@ endpoint: https://fakeapi.platzi.com/en/rest/users/
 ![Screenshot 2024-06-13 141706](https://github.com/anneyoung27/rest_assured_framwork/assets/63891089/d07b17de-f41a-419e-8508-58bb6f3ba013)
 ### Details
 #### CRUD operation
-  - GET Users
-  - CREATE Users
-  - UPDATE Users
-  - DELETE - Delete Users
+  - GET Users includes positive, negative, and edge test case
+  - CREATE Users includes positive, negative, and edge test case
+  - UPDATE Users includes positive, negative, and edge test case
+  - DELETE - Delete Users includes positive, negative, and edge test case
 #### Utils
   - Assertions utility to validate actual output and expected output
   - JSON utility uses the Jackson library to read JSON data from a file and return it as a Map.
