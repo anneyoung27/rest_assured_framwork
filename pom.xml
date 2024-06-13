@@ -113,13 +113,6 @@
             <artifactId>json</artifactId>
             <version>20240303</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.github.ozlerhakan/poiji -->
-        <dependency>
-            <groupId>com.github.ozlerhakan</groupId>
-            <artifactId>poiji</artifactId>
-            <version>4.5.0</version>
-        </dependency>
     </dependencies>
 
 </project>
