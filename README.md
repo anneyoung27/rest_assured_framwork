@@ -23,4 +23,4 @@ cd rest_assured_framework
 mvn clean install
 ```
 ## Reporting
-This framework supports integration with reporting tools like Extent Report to generate test reports. Make sure to configure the desired reporting tool in your project.
+This framework supports integration with reporting tools like ExtentReports to generate test reports. Make sure to configure the desired reporting tool in your project.
